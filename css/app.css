@@ -788,6 +788,37 @@ footer{
     left: 50%;
     transform: translateX(-50%);
 }
+.user-rate{
+    margin-bottom: 40px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.user-avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-name{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name{
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.user-rate-content{
+    line-height: 25px;
+
+}
 /* responsive */
 @media only screen and (max-width: 1280px) {
     .mobile-menu{
